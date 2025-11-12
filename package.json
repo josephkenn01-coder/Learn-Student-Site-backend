@@ -1,21 +1,19 @@
 {
-  "name": "student-signup-backend",
+  "name": "student-auth-backend",
   "version": "1.0.0",
-  "description": "Backend API for Student Signup Demo using Node.js, Express, and MongoDB",
+  "description": "Backend API for Learn Student Site with signup, signin, logout",
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["signup", "express", "mongodb", "students"],
-  "author": "Your Name",
-  "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.0",
     "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.7.0"
   },
   "devDependencies": {
